@@ -4,8 +4,7 @@ This project analyzes employee data to understand the main causes of attrition a
 
 The objective is to help HR teams make proactive, data-driven retention decisions.
 
-**Problem Statement
-**
+**Problem Statement**
 Employee attrition reduces productivity and increases recruitment costs.
 
 Organizations often react after employees resign.
@@ -20,8 +19,7 @@ Provide actionable HR recommendations
 
 Support strategic workforce planning
 
-**Dataset Overview
-**
+**Dataset Overview**
 Dataset: IBM HR Employee Attrition Dataset
 
 1470 employee records
@@ -38,8 +36,7 @@ Job Role & Department
 
 Compensation (Monthly Income, Salary Hike, Stock Options)
 
-**Data Preprocessing
-**
+**Data Preprocessing**
 Removed irrelevant columns
 
 Checked missing values
@@ -50,8 +47,8 @@ Scaled numerical features
 
 Applied stratified train-test splitting
 
-**Exploratory Data Analysis
-**
+**Exploratory Data Analysis**
+
 Key insights from EDA:
 
 Sales roles show higher attrition
@@ -66,8 +63,7 @@ Low job satisfaction strongly correlates with attrition
 
 Correlation heatmaps and distribution plots were used to analyze feature relationships.
 
-**Machine Learning Models Implemented
-**
+**Machine Learning Models Implemented**
 The following models were trained and evaluated:
 
 Logistic Regression
@@ -92,16 +88,14 @@ F1-Score
 
 ROC-AUC
 
-**Final Model
-**
+**Final Model**
 SVM achieved the best balance between precision and recall.
 
 Feature selection was performed using Random Forest importance and the elbow method.
 
 The optimized SVM model achieved strong predictive performance with reduced feature complexity.
 
-**Key Drivers of Attrition
-**
+**Key Drivers of Attrition**
 Top influencing features:
 
 Monthly Income
@@ -116,8 +110,7 @@ Job Satisfaction
 
 These indicate that compensation, career growth, and work-life balance strongly affect retention.
 
-**Power BI Dashboard
-**
+**Power BI Dashboard**
 An interactive Power BI dashboard was developed to visualize:
 
 Department-wise attrition
@@ -132,8 +125,7 @@ Satisfaction trends
 
 This supports business-level decision-making.
 
-**Business Recommendations
-**
+**Business Recommendations**
 Based on analysis:
 
 Strengthen promotion pathways
@@ -145,9 +137,8 @@ Introduce flexible work options
 Implement performance-based salary increments
 
 Even a small reduction in attrition can significantly reduce hiring and training costs.
-
-**Future Scope
 **
+Future Scope**
 Deploy model using Streamlit
 
 Integrate SHAP for explainability
@@ -159,7 +150,3 @@ Explore advanced ensemble optimization
 **Author**
 
 Peddi Praharshita
-
-Work Conditions (Overtime, Distance from Home)
-
-Satisfaction Scores (Job, Environment, Relationship)
